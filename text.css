@@ -1,0 +1,239 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	color: #fff;
+	font-family:SimHei,"黑体", Hiragino Sans GB, "冬青黑体", sans-serif;
+}
+.header{
+	width: 1024px;
+	margin: 0px auto;
+	border-bottom:1px #00000055 solid;
+}
+.header-box{
+	height: 100vh;
+	background-color: #192314;
+	margin: 0px;
+	overflow:hidden;
+	position: relative;
+}
+.box-picture{
+	width: 652px;
+	height: 80vh;
+	float: right;
+	background-image: url(beosound-shape-mobile.jpg);
+	background-size:100% auto;
+}
+.box-text{
+	width: 595px;
+	height: 200px;
+	position: absolute;
+	top: 130px;
+	left: 100px;
+}
+.text-top{
+	width: 595px;
+	height: 125px;
+}
+.first{
+	display: block;
+	line-height:24px;
+	margin-bottom:18px;
+	font-size:12px;
+	font-family:sans-serif;
+	font-style: normal;
+}
+.second{
+	line-height: 60px;
+	margin-top:10px;
+	margin-bottom:12px;  
+	font-size: 30px;
+	font-style: normal;
+	letter-spacing:5px;
+}
+.third{
+	line-height:21px;
+	font-weight:300px;
+	margin-bottom:19.5px;
+	font-size: 13px;
+	display:block;
+}
+.button{
+	width: 280px;
+	display: block;
+	line-height:14px;
+	margin-top: 8px;
+    margin-bottom: 8px;
+	padding: 10px 40px;
+	background-color: rgba(255,255,255,.1);
+	text-decoration: none;
+	color:#fff;
+	font-size: 12px;
+}
+.banner-box{
+	background-size: 100%;
+	height: 720px;
+	height: 440px;
+	margin-top:-65px;
+	background-image: url(img-bg-1350.jpg); 
+	background-size: 100% auto;
+}
+.product-box{
+	width: 705px;
+	height: 352px;
+	position: relative;
+	z-index:50;
+	margin: 0 auto;
+}
+.product-item{
+	width: 33.333333333333%;
+	float:left;
+	position: relative;
+}
+.product-item img{
+	width: 100%;
+}
+.product-item h4{
+	position: absolute;
+	top:6px;
+	left:30px;
+	font-size: 18px;
+} 
+.header-top{
+	width: 100%;
+	height: 57px;
+	padding: 0px 22px;
+	position: absolute;
+	z-index: 200;
+	display: flex;
+	justify-content: space-between;
+}
+.top-left,.top-right{
+	width: 150px;
+	text-align: center;
+	line-height: 57px;
+	position: relative;
+	font-size: 12px;
+	font-weight: 300;
+}
+.top-center{
+	width: 167px;
+	line-height: 57px;
+	text-align: center;
+	font-size: 14px;
+}
+.top-left{
+	background-image: url(product.png);
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+.top-right{
+	background-image: url(menu.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+.white-box{
+	width: 823px;
+	height: 190px;
+	margin-left: 85.30px;
+	padding: 0 15px;
+}
+.text-type{
+	height: 140px;
+	margin-top: 95px;
+	margin-bottom:80px;
+	color:#000;
+	text-align: center;
+}
+.text-type h6{
+	font-size: 12px;
+	line-height: 21px;
+	margin-top: 12px;
+	margin-bottom: 18px;
+	font-style: normal;
+	letter-spacing: 2px;
+	font-weight: 400;
+}
+.text-type h2{
+	line-height: 39px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-style: normal;
+	letter-spacing: 4px;
+	font-weight: 500;
+}
+.product-list{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.product{
+	width: 512px;
+	height: 512px;
+	position: relative;
+}
+.product:nth-child(1){
+	background-image: url(beosound-shape-mobile.jpg);
+	background-size: 100% auto;
+}
+.product:nth-child(2){
+	background-image: url(beovision-eclipse-mobile.jpg);
+	background-size: 100% auto;
+}
+.product:nth-child(3){
+	background-image: url(beolab-50-mobile.jpg);
+	background-size: 100% auto;
+}
+.product:nth-child(4){
+	background-image: url(beoplay-p6-categories-mobile-2.jpg);
+	background-size: 100% auto;
+}
+.product:nth-child(5){
+	background-image: url(beosound-core-mobile.jpg);
+	background-size: 100% auto;
+}
+.product:nth-child(6){
+	background-image: url(beoplay-h9i-mobile.jpg);
+	background-size: 100% auto;
+}
+.product h2{
+	font-size: 12px;
+	letter-spacing: 2px;
+	position: absolute;
+	top:35px;
+	left:35px;
+	font-style: normal;
+} 
+.stroy-box{
+	margin:0 auto; 
+	width: 704px;
+	height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 100px;
+}
+.story{
+	width: 176px;
+	height: 364px;
+}
+.story:nth-child(3){
+	width: 352px;
+}
+.story img{
+	width: 100%;
+}
+.story h5{
+	color: #000000a1;
+	line-height: 24px;
+	margin:18px 0;
+	font-weight: 300;
+	font-size: 12px;
+}
+.story-text{
+	color: #00000091;
+	font-size: 13px;
+    font-weight: 300;
+    line-height: 21px;
+}
