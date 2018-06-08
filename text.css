@@ -13,7 +13,7 @@ body {
 }
 
 .header-box {
-    height: 650px;
+    height: 690px;
     background-color: #192314;
     margin: 0;
     overflow: hidden;
@@ -24,7 +24,7 @@ body {
     width: 652px;
     height: 80vh;
     float: right;
-    background-image: url(beosound-shape-mobile.jpg);
+    background: url(beosound-shape-mobile.jpg) no-repeat;
     background-size: 100% auto;
 }
 
